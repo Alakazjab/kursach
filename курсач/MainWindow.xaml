@@ -5,8 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:курсач"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Novsu" Height="450" Width="800">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="373*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Вход" HorizontalAlignment="Center" Margin="378,85,332,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Center" Height="24" Margin="336,142,290,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Center" Height="24" Margin="336,202,290,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Логин" HorizontalAlignment="Center" Margin="344,111,358,0" VerticalAlignment="Top"/>
+        <Label Content="Пароль" HorizontalAlignment="Center" Margin="340,171,354,0" VerticalAlignment="Top"/>
+        <Button Content="Войти" HorizontalAlignment="Center" Margin="336,240,290,0" VerticalAlignment="Top" Width="120" Click="Button_Click"/>
+        <Button Content="Зарегистрироваться" HorizontalAlignment="Center" Margin="336,265,290,0" VerticalAlignment="Top" Width="120" Click="Button_Click_1"/>
     </Grid>
 </Window>

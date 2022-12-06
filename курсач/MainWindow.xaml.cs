@@ -24,5 +24,27 @@ namespace курсач
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        /* private void Button_Click(object sender, RoutedEventArgs e)
+         {         
+             var host = System.Net.Dns.GetHostEntry(System.Net.Dns.GetHostName());
+             foreach (var ip in host.AddressList)
+             {
+                 if (ip.AddressFamily == System.Net.Sockets.AddressFamily.InterNetwork)
+                 {
+                     tb1.Text = ip.ToString();
+                 }
+             }
+         }*/
     }
 }
